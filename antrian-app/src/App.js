@@ -1,7 +1,7 @@
 import "./App.css";
 import Content from "./component/Content";
 import Header from "./component/Header";
-import Output from "./component/Output";
+import "./App";
 
 function App() {
   return (
@@ -9,8 +9,6 @@ function App() {
       <Header />
       <hr />
       <Content />
-      <hr />
-      <Output />
     </div>
   );
 }
